@@ -201,6 +201,8 @@ kubectl delete svc/hello-world
 
 ### Create Service ClusterIP
 
+Used for Internal Services only; Cant be used for outside communications
+
 Create deploymnet again:
 
 ```
