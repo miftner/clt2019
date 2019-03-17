@@ -219,6 +219,8 @@ See: http://127.0.0.1:8001/api/v1/namespaces/default/services/hello-world-cluste
 
 ### Create Service NodePort
 
+Used as a service point for communication outside of the cluster 
+
 ```
 kubectl apply -f 06_nodeport_service.yml
 ```
