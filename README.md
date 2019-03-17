@@ -3,7 +3,7 @@
 Fork of [ondrejsika/kubernetes-training-example](https://github.com/ondrejsika/kubernetes-training-examples)
 
 ---
-
+s
 ## Install
 
 ### Kubectl
@@ -127,6 +127,7 @@ kubectl get rs,po
 ### Update Replica Set
 
 See the difference
+The difference is that if you config a new file with the same label names, he will, unlike a simple change in the old file, deploy the pods new on the spot
 
 ```
 vimdiff 03_01_replica_set.yml 03_02_replica_set.yml
