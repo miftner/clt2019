@@ -170,7 +170,12 @@ Or using `minikube service` (just for NodePort)
 ```
 minikube service hello-world
 ```
+If you need an url, just add an --url to the end like:
 
+
+```
+minikube service hello-world --url
+```
 
 ### Update Deployment
 
